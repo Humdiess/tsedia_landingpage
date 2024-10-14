@@ -1,3 +1,7 @@
+.w-screen {
+    width: 100vw;
+}
+
 .text-title {
     font-size: 3.5rem;
 }

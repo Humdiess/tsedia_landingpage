@@ -31,8 +31,7 @@
     itemscope
     itemtype="http://schema.org/WebPage"
   >
-  <header class="js-page-header page-header--transparent fixed top-0 z-20 w-full bg-white/[.15] backdrop-blur transition-colors"
->
+  <header class="js-page-header fixed top-0 z-20 w-full backdrop-blur transition-colors w-screen" data-theme="dark">
     <div class="flex items-center px-6 py-6 xl:px-24">
       <!-- Logo -->
       <a href="index.html" class="shrink-0">
@@ -225,7 +224,7 @@
 
       <section class="relative pt-24 pb-10 dark:bg-jacarta-800" id="keuntungan">
         <div class="container">
-            <div class="lg:flex lg:flex-nowrap overflow-x-hidden">
+            <div class="lg:flex lg:flex-nowrap">
                 <!-- Image -->
                 <div class="mb-16 lg:w-1/2 slide-right" style="display: flex; justify-content: center; align-items: center;">
                     <img src="img/Daftar Akun 4.png" width="300" loading="lazy" class="rounded-2.5xl">
@@ -297,7 +296,7 @@
             <h2 class="inline text-title">Transfer ke Semua Bank, Bayar Tagihan, Top Up Pulsa dan Lainnya <br> <span class="text-accent">Semua Bisa Dapat Penghasilan Tambahan Dengan Tsedia</span> </h2>
           </div>
           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mb-8">
-            <div class="relative fade-in rounded-2.5xl border border-jacarta-100 bg-white p-10 pt-12 transition-shadow hover:shadow-xl dark:border-jacarta-700 dark:bg-jacarta-700" data-delay="300">
+            <div class="relative fade-in rounded-2.5xl border border-jacarta-100 bg-white p-10 pt-12 transition-shadow hover:shadow-xl dark:border-jacarta-700 dark:bg-jacarta-700" data-delay="250">
               <div class="circle__icon mb-5 top-10 left-12 block h-12 w-12 rounded-full bg-[#DCD0FF] dark:bg-accent" style="display: flex; justify-content: center; align-items: center;">          
                 <svg width="22" height="22" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-accent-dark dark:fill-white">
                   <path d="M46.7118 46.3122C46.7118 45.5544 46.4188 44.8434 45.8837 44.3083C45.3485 43.7731 44.6376 43.4802 43.8798 43.4802H37.6298C32.2978 43.4802 27.9618 39.1443 27.9618 33.8122C27.9618 31.2302 28.9696 28.8005 30.7938 26.9763C32.5516 25.2185 34.8641 24.2224 37.3368 24.1482V19.9451H44.1727V24.1482C49.368 24.3044 53.5477 28.5779 53.5477 33.8123H46.7118C46.7118 32.2498 45.4423 30.9803 43.8798 30.9803H37.6298C36.872 30.9803 36.161 31.2732 35.6259 31.8084C35.0908 32.3435 34.7977 33.0545 34.7977 33.8123C34.7977 35.3748 36.0672 36.6443 37.6297 36.6443H43.8797C46.4617 36.6443 48.8914 37.6521 50.7156 39.4763C52.5398 41.3005 53.5476 43.7302 53.5476 46.3122C53.5476 51.5466 49.3679 55.82 44.1726 55.9763V60.1794H37.3367V55.9763C32.1414 55.82 27.9617 51.5466 27.9617 46.3122H34.7976C34.7976 47.8747 36.0671 49.1442 37.6296 49.1442H43.8796C45.4421 49.1481 46.7118 47.8747 46.7118 46.3122ZM11.0708 6.37417H3.25829V11.257H11.0708V6.37417ZM79.8908 14.8117L64.2658 0.749673C63.547 0.105143 62.5197 -0.0589173 61.6408 0.335613C60.758 0.726233 60.1916 1.60121 60.1916 2.56611V6.37471H15.7576V11.2575H62.6326C63.9803 11.2575 65.074 10.1637 65.074 8.81611V8.04658L74.6092 16.6286L65.074 25.2106V24.4411C65.074 23.0934 63.9802 21.9997 62.6326 21.9997H56.3826V26.8825H60.1912V30.6911C60.1912 31.6559 60.7576 32.527 61.6404 32.9216C61.9607 33.0622 62.2966 33.1325 62.6326 33.1325C63.2263 33.1325 63.8084 32.9177 64.2654 32.5075L79.8904 18.4455C80.406 17.9846 80.699 17.3205 80.699 16.633C80.6951 15.9377 80.4021 15.2736 79.8904 14.8127L79.8908 14.8117ZM70.4455 73.7567H78.258V68.8739H70.4455V73.7567ZM16.4375 71.3114V72.0809L6.90229 63.4989L16.4375 54.9169V55.6864C16.4375 57.0341 17.5313 58.1278 18.8789 58.1278H25.1289V53.245H21.3203V49.4364C21.3203 48.4716 20.7539 47.6005 19.8711 47.2059C18.9883 46.8153 17.9609 46.9755 17.2461 47.62L1.62109 61.682C1.10547 62.1429 0.8125 62.807 0.8125 63.4945C0.8125 64.1859 1.10547 64.8461 1.62109 65.307L17.2461 79.369C17.7031 79.7792 18.2891 79.994 18.8789 79.994C19.2148 79.994 19.5508 79.9237 19.8711 79.7831C20.7539 79.3924 21.3203 78.5175 21.3203 77.5526V73.744H65.7543V68.8612H18.8793C17.5316 68.8729 16.4379 69.9628 16.4379 71.3104L16.4375 71.3114Z"/>
@@ -381,8 +380,8 @@
         </div>
         <div class="container">
           <!-- Tabs Nav -->
-          <ul class="nav nav-tabs scrollbar-custom mb-12 flex items-center justify-center overflow-x-auto overflow-y-hidden border-b border-jacarta-100 pb-px dark:border-jacarta-600" role="tablist">
-            <li class="nav-item transition-all" role="presentation">
+          <ul class="navnav-tabs scrollbar-custom mb-12 flex items-center justify-center overflow-x-scroll overflow-y-hidden border-b border-jacarta-100 pb-px dark:border-jacarta-600" role="tablist">
+            <li class="nav-item transition-all tabnav-save-area" role="presentation">
               <button class="nav-link relative flex items-center whitespace-nowrap py-3 px-6 text-jacarta-400 hover:text-jacarta-700 dark:hover:text-white active" id="on-sale-tab" data-bs-toggle="tab" data-bs-target="#on-sale" type="button" role="tab" aria-controls="on-sale" aria-selected="true">
                 <span class="font-display text-base font-medium">Daftar Akun Tsedia</span>
               </button>
@@ -414,7 +413,7 @@
                                   <h1>1.</h1>
                                 </div>        
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium group-hover:text-accent dark:text-white">Install Aplikasi Tsedia</span>
+                                  <span class="mb-2  block font-display text-xl font-medium group-hover:text-accent dark:text-white">Install Aplikasi Tsedia</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Install aplikasi Tsedia melalui Play Store atau link yang tertera pada website ini.
@@ -429,7 +428,7 @@
                                   <h1>2.</h1>
                                 </div> 
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Registrasi Akun</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Registrasi Akun</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Buka aplikasi Tsedia, masukkan nomor Whatsapp Anda, dan klik Masuk. Masukkan kode OTP yang telah dikirimkan.
@@ -444,7 +443,7 @@
                                   <h1>3.</h1>
                                 </div>        
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Isi Data Diri</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Isi Data Diri</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Isi data diri Anda sesuai dengan kolom yang disediakan.
@@ -459,7 +458,7 @@
                                   <h1>4.</h1>
                                 </div>        
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Pendaftaran Berhasil!</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Pendaftaran Berhasil!</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Kamu bisa langsung isi saldo dan siap mendapatkan cuan dengan Tsedia.
@@ -515,7 +514,7 @@
                                   <h1>1.</h1>
                                 </div>          
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium group-hover:text-accent dark:text-white">Klik Tombol Top Up Saldo Anda</span>
+                                  <span class="mb-2 block font-display text-xl font-medium group-hover:text-accent dark:text-white">Klik Tombol Top Up Saldo Anda</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Pada halaman Home Tsedia, klik Top Up Saldo Anda.
@@ -530,7 +529,7 @@
                                   <h1>2.</h1>
                                 </div> 
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Pilih Rekening Tujuan Transfer</span>
+                                  <span class="mb-2 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Pilih Rekening Tujuan Transfer</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Pilih rekening tujuan transfer yang akan Anda gunakan untuk melakukan top up saldo.
@@ -545,7 +544,7 @@
                                   <h1>3.</h1>
                                 </div>      
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Masukkan Nominal Isi Saldo</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Masukkan Nominal Isi Saldo</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Masukkan nominal isi saldo mulai dari Rp10.000.
@@ -560,7 +559,7 @@
                                   <h1>4.</h1>
                                 </div>          
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Lakukan Pembayaran</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Lakukan Pembayaran</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Lakukan transfer sesuai dengan nominal dan tujuan transfer yang tertera. Tunggu beberapa saat dan saldo Anda akan bertambah.
@@ -616,7 +615,7 @@
                                   <h1>1.</h1>
                                 </div> 
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium group-hover:text-accent dark:text-white">Klik Produk yang Diinginkan</span>
+                                  <span class="mb-2  block font-display text-xl font-medium group-hover:text-accent dark:text-white">Klik Produk yang Diinginkan</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Pilih salah satu produk yang tertera pada halaman home tsedia.
@@ -631,7 +630,7 @@
                                   <h1>2.</h1>
                                 </div> 
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Pilih Produk dan Masukkan Nomor Tujuan</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Pilih Produk dan Masukkan Nomor Tujuan</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Masukkan nomor HP/ID pelanggan/Nomor tagihan dan pilih nominal sesuai keinginan.
@@ -646,7 +645,7 @@
                                   <h1>3.</h1>
                                 </div>            
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Cek Dahulu Kemudian Bayar</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Cek Dahulu Kemudian Bayar</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Pastikan nomor tujuan dan nominal yang Anda pilih sudah sesuai, kemudian lakukan pembayaran sesuai dengan nominal yang tertera.
@@ -661,7 +660,7 @@
                                   <h1>4.</h1>
                                 </div> 
                                 <div>
-                                  <span class="mb-2 mt-1 block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Transaksi Berhasil</span>
+                                  <span class="mb-2  block font-display text-xl font-medium text-jacarta-700 group-hover:text-accent dark:text-white">Transaksi Berhasil</span>
                                   <div class="nav-link-content hidden">
                                     <p class="text-jacarta-500 dark:text-jacarta-300">
                                         Anda dapat memberikan struk kepada pelanggan Anda dengan nominal yang bisa disesuaikan.
@@ -717,7 +716,7 @@
       <section class="pb-24">
         <div class="container">
           <!-- Video Lightbox -->
-          <figure class="relative mt-16 overflow-hidden rounded-3xl before:absolute before:inset-0 before:bg-jacarta-900/25 lg:-mt-96" style="display: flex; justify-content: center; align-items: center;">
+          <figure class="relative 6 overflow-hidden rounded-3xl before:absolute before:inset-0 before:bg-jacarta-900/25 lg:-mt-96" style="display: flex; justify-content: center; align-items: center;">
             <video width="400" height="240" controls>
               <source src="video/Tsedia Fitur.mp4" type="video/mp4">
               <source src="video/Tsedia Fitur.mp4" type="video/ogg">
@@ -772,10 +771,11 @@
     <!-- JS Scripts -->
     <script src="js/app.bundle.js"></script>
     <script src="js/animation.js"></script>
+    <script src="js/navbar.js"></script>
     
     <!-- smooth scroll -->
-    <script src="js/smoothScroll.js"></script>
     <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script> 
+    <script src="js/smoothScroll.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css">
   </body>
 </html>

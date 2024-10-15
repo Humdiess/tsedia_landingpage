@@ -17,7 +17,9 @@ new class {
         }))
     }
     getColorPreference() {
-        return "dark" === document.documentElement.getAttribute("data-scheme") ? "dark" : localStorage.getItem(this.storageKey) ? localStorage.getItem(this.storageKey) : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+        return "dark" === document.documentElement.getAttribute("data-scheme") ? "dark" : 
+               localStorage.getItem(this.storageKey) ? localStorage.getItem(this.storageKey) : 
+               "light";
     }
     setPreference() {
         localStorage.setItem(this.storageKey, this.theme.value), this.reflectPreference()

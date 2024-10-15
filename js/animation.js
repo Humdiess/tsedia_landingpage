@@ -10,7 +10,7 @@ const observer = new IntersectionObserver((entries, observer) => {
             }, delay);
             
             // Unobserve agar tidak memicu lagi setelah elemen terlihat
-            // observer.unobserve(element);
+            observer.unobserve(element);
         } else {
             // Opsional: Hapus kelas 'show' jika elemen keluar dari viewport
             // Ini akan menonaktifkan animasi ulang ketika elemen hilang dari viewport

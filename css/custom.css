@@ -2,8 +2,18 @@
     width: 100vw;
 }
 
+.navbar-dark {
+    background-color: #13174070 !important;
+}
+
 .text-title {
     font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+    .tabnav-save-area {
+        margin-left: 6rem;
+    }
 }
 
 @media (max-width: 1024px) {

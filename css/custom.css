@@ -2,6 +2,10 @@
     width: 100vw;
 }
 
+.text-white {
+    color: white !important; /* Mengubah warna teks menjadi putih */
+}
+
 .navbar-dark {
     background-color: #13174070 !important;
 }

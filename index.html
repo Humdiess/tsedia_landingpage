@@ -35,8 +35,8 @@
     <div class="flex items-center px-6 py-6 xl:px-24">
       <!-- Logo -->
       <a href="index.html" class="shrink-0">
-        <img src="img/Logo Tsedia Berwarna Ceria.png" class="dark:hidden" width="150"/>
-        <img src="img/Logo Tsedia White 2.png" class="hidden dark:block" width="150"/>
+        <img src="img/Logo Tsedia Berwarna Ceria.png" class="logo-light hidden" width="150" alt="logo light"/>
+        <img src="img/Logo Tsedia White 2.png" class="logo-dark" width="150" alt="logo dark"/>
       </a>
 
       <!-- Menu / Actions -->
@@ -79,39 +79,39 @@
 
         <!-- Primary Nav -->
         <nav class="navbar w-full">
-          <ul class="flex flex-col lg:flex-row">
+          <ul class="flex flex-col lg:flex-row gap-8">
             <li class="js-nav-dropdown group relative">
               <a
                 href="#keuntungan"
-                class="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent dark:text-white lg:px-5 lg:text-white lg:hover:text-white"
+                class="nav-item-text font-medium flex items-center justify-between py-3.5 font-display text-base hover:text-accent dark:text-white text-white transition-all"
                 >Keuntungan
               </a>
             </li>
             <li class="js-nav-dropdown group relative">
               <a
                 href="#produk"
-                class="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent dark:text-white lg:px-5 lg:text-white lg:hover:text-white"
+                class="nav-item-text font-medium flex items-center justify-between py-3.5 font-display text-base hover:text-accent dark:text-white text-white transition-all"
                 >Produk
               </a>
             </li>
             <li class="js-nav-dropdown nav-item dropdown group relative">
               <a
                 href="#tutorial"
-                class="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent dark:text-white lg:px-5 lg:text-white lg:hover:text-white"
+                class="nav-item-text font-medium flex items-center justify-between py-3.5 font-display text-base hover:text-accent dark:text-white text-white transition-all"
                 >Tutorial
               </a>
             </li>
             <li class="js-nav-dropdown group relative">
               <a
                 href="#videopengenalan"
-                class="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent dark:text-white lg:px-5 lg:text-white lg:hover:text-white"
+                class="nav-item-text font-medium flex items-center justify-between py-3.5 font-display text-base hover:text-accent dark:text-white text-white transition-all"
                 >Video Pengenalan
               </a>
             </li>
             <li class="group">
               <a
                 href="#kontakkami"
-                class="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent dark:text-white lg:px-5 lg:text-white lg:hover:text-white"
+                class="nav-item-text font-medium flex items-center justify-between py-3.5 font-display text-base hover:text-accent dark:text-white text-white transition-all"
                 >Kontak Kami</a
               >
             </li>
@@ -123,7 +123,7 @@
           <!-- Dark Mode -->
           <a
             href="#"
-            class="js-dark-mode-trigger group ml-2 flex h-10 w-10 items-center justify-center rounded-full border border-transparent bg-white/[.15] transition-colors hover:bg-accent focus:bg-accent"
+            class="js-dark-mode-trigger group ml-2 flex h-10 w-10 items-center justify-center rounded-full border border-transparent bg-accent transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +209,7 @@
 
     <main>
       <!-- Hero Slider -->
-      <section class="relative h-screen">
+      <section class="relative h-screen w-screen">
         <div class="swiper full-slider h-screen">
           <div class="swiper-wrapper">
             <!-- Slides -->
@@ -777,5 +777,6 @@
     <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script> 
     <script src="js/smoothScroll.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css">
+  
   </body>
 </html>

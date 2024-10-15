@@ -22,3 +22,4 @@ const observer = new IntersectionObserver((entries, observer) => {
 // Ambil elemen-elemen yang memiliki kelas animasi yang berbeda
 const hiddenElements = document.querySelectorAll('.slide-left, .slide-right, .fade-in');
 hiddenElements.forEach((element) => observer.observe(element));
+

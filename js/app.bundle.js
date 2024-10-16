@@ -6982,7 +6982,7 @@ n.n = function(e) {
                 this.header = document.querySelector(".js-page-header"), this.header && (this.initStickyNavbar(), this.events())
             }
             initStickyNavbar() {
-                window.scrollY > 0 ? this.header.classList.add("js-page-header--is-sticky") : this.header.classList.remove("js-page-header--is-sticky")
+                window.scrollY > 0 ? this.header.classList.add("js-page-header--is-sticky", "backdrop-blur") : this.header.classList.remove("js-page-header--is-sticky", "backdrop-blur")
             }
             events() {
                 window.addEventListener("scroll", (e => this.initStickyNavbar(e)))

@@ -1,3 +1,7 @@
+.js-mobile-menu nav ul li a.active {
+    color: #8358ff !important;
+}
+
 .w-screen {
     width: 100vw;
 }
